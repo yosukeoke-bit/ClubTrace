@@ -34,8 +34,6 @@ jobs:
         with:
           gradle-version: "8.13"
           cache-provider: basic
-        with:
-          cache-provider: basic
 
       - name: Build debug APK
         run: gradle :app:assembleDebug --stacktrace
